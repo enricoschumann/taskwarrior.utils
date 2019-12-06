@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("jsonlite",
+           "read_json")
+
+S3method("as.data.frame", "taskwarrior_tasks")
